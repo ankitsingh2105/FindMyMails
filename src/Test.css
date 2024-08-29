@@ -1,0 +1,115 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.email-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.email-card {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 4px 10px #484848;
+    background-color: black;
+}
+
+input {
+    padding: 5px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.tags,
+.tagComp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagComp {
+    background-color: #484848;
+    border-radius: 20px;
+}
+
+.removeTag {
+    font-size: 10px;
+    margin: 3px 3px 0px 3px;
+    cursor: pointer;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 10px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.float{
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    background-color: #484848;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.promptResult{
+    position: fixed;
+    top: 10%;
+    left:  5%;
+    right: 5%;
+    background-color: #424242;
+    padding: 5px;
+    max-height: 700px;
+    overflow-y: auto; 
+    padding-right: 10px; 
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.email-card1 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(35, 35, 35);
+}
+
+.closeButton{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    cursor: pointer;
+}
